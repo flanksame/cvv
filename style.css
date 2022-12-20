@@ -1,0 +1,64 @@
+#texts {
+  font-style: normal;
+  font-family: Lucida Handwriting;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+#port {
+  text-align: center;
+  font-style: normal;
+  font-family: Ink Free;
+}
+#bg {
+  background-color: #87cefad4;
+  position: relative;
+  cursor: url("images/icons8-blue-pointer-25.png"), auto;
+}
+#ed {
+  font-style: normal;
+  font-family: cursive;
+  color: rgb(18, 66, 66);
+  font-stretch: wider;
+}
+#tab {
+  font-style: normal;
+  font-family: cursive;
+}
+.lan {
+  font-style: normal;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: large;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 0, 238);
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline wavy;
+  text-decoration-color: black;
+}
+a:active {
+  color: rgb(213, 220, 20);
+  text-decoration: underline;
+  text-decoration-color: azure;
+  font-size: 27px;
+}
+button {
+  font-size: 18px;
+  cursor: url("images/icons8-cursor-32.png"), auto;
+  /* bottom: 20px; */
+  right: 20px;
+  position: absolute;
+  /* border: none; */
+  border-radius: 10px;
+  top: 95%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
